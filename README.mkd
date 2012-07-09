@@ -1,0 +1,19 @@
+# jquery-h-nav-index
+
+A simple jQuery plugin to generate a navigation index from headers.
+
+It works for levels from `<h1>` to `<h6>`.
+
+## Requirements
+
+- jquery1.7.2
+
+## Usage
+
+Copy the `jhni` folder to your site and include jQuery, the `js` and the `css` file as follows:
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./jhni/js/jquery-h-nav-index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./jhni/css/jquery-h-nav-index.css"/>
+
+The index will be automatically generated and the header entries linked.
