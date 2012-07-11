@@ -16,4 +16,15 @@ Copy the `jhni` folder to your site and include jQuery, the `js` and the `css` f
     <script type="text/javascript" src="./jhni/js/jquery-h-nav-index.js"></script>
     <link rel="stylesheet" type="text/css" href="./jhni/css/jquery-h-nav-index.css"/>
 
+Then, if you whant a fancy and fixed and collapsable navigation index in the up-left corner of your site, append the following code.
+
+    <script type="text/javascript">jhnavigationIndex();</script>
+
+But if you prefer an inline navigation index to be placed inside an element of your page, the following code:
+
+    <script type="text/javascript">jhnavigationIndex('#idElement');</script>
+
+Where #idElement is the identifier of the element where the navigation index will be placed.
+
 The index will be automatically generated and the header entries linked.
+

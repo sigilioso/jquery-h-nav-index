@@ -4,8 +4,11 @@
 .jhni_H4 { margin-left: 60px;}
 .jhni_H5 { margin-left: 80px;}
 .jhni_H6 { margin-left: 100px;}
-#jhni_index {position: fixed; left:1px; top:33px; width: 250px;}
-#jhni_knob {position: fixed; left:1px; top: 1px; width:32px; height:32px; background-image: url(../img/index.png); background-repeat: no-repeat; cursor: pointer;}
-#jhni_knob:hover {opacity:0.8; filter:alpha(opacity=80); /* For IE8 and earlier */}
-#jhni_indexContent { max-height: 450px; overflow: auto; padding: 10px; background: #FFD; border: solid #DDA; opacity: 0.95; filter:alpha(opacity=95); /* For IE8 and earlier */}
+.jhni_index {position: fixed; left:1px; top:33px; width: 250px;}
+#jhni_knob {cursor: pointer;}
+.jhni_knob {position: fixed; left:1px; top: 1px; width:32px; height:32px; background-image: url(../img/index.png); background-repeat: no-repeat;}
+.jhni_knob:hover {opacity:0.8; filter:alpha(opacity=80); /* For IE8 and earlier */}
+#jhni_knob span {font-weight: bold; text-decoration: underline;}
+#jhni_knob span:hover {text-decoration: none; text-shadow:#99B 0.1em 0.1em 0.1em;}
+.jhni_indexContent { max-height: 450px; overflow: auto; padding: 10px; background: #FFD; border: solid #DDA; opacity: 0.95; filter:alpha(opacity=95); /* For IE8 and earlier */}
 
