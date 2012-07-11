@@ -22,14 +22,17 @@ function jhnavigationIndex(container) {
       indexContent.append('<div class="index jhni_' + h.prop('tagName') +'"><a href="#' + sh + '">' + h.text()  + ' </a></div>');
     }
     if(!container || !$(container).length) {
-    //Insert the index to the beginning of the body ...
+      //Style to place it fixed in the up-left corner
       knob.attr('class', 'jhni_knob');
       index.attr('class', 'jhni_index');
       indexContent.attr('class', 'jhni_indexContent');
+      //Insert the index to the beginning of the body ...
       $('body').prepend(index);
       $('body').prepend(knob);
     } else {
+    //
       knob.append('<span>Navigation Index</span>');
+      //Insert the index to the selected container ...
       $container = $($(container)[0])
       $container.append(knob);
       $container.append(index);
